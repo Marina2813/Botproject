@@ -40,9 +40,9 @@ Y_test = Y_test.astype('int')
 print(X_train)
 print(X_train_features)
 
-Training model
+'''Training model'''
 
-Logistic Regression
+'''Logistic Regression'''
 model = LogisticRegression()
 # training the Logistic Regression model with the training data
 model.fit(X_train_features, Y_train)
@@ -51,7 +51,7 @@ LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
                    multi_class='auto', n_jobs=None, penalty='l2',
                    random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
                    warm_start=False)
- Evaluating the trained model
+ '''Evaluating the trained model'''
  
  # prediction on training data
 
